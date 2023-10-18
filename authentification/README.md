@@ -4,4 +4,5 @@ Swn Authentication is the process that SHOULD be used after the connection betwe
 
 ### Auth process
 ---
-- Challenge-response with RSA SwnID: here will be drawio svg
+- Challenge-response with RSA SwnID:
+- ![[modules-swn-auth.svg]]
