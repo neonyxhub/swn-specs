@@ -5,4 +5,13 @@ Swn Authentication is the process that SHOULD be used after the connection betwe
 ### Auth process
 ---
 - Challenge-response with RSA SwnID:
-- ![[modules-swn-auth.svg]]
+
+![[modules-swn-auth.svg]]
+
+Each message in this process is separated with ```\n``` symbol, that is how we understand when previous message ended.
+Right now dropping stream is not followed by any additional info written to auth stream, except default stream dropping libp2p process. Future proccess will be described [todo](#todo)
+
+### TODO
+---
+- [ ] Drop stream with additional data on each stage
+- [ ] Discuss which keys could be used in swnauth process
